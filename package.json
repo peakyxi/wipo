@@ -1,0 +1,31 @@
+{
+  "name": "wipo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "mongoose-paginate-v2": "^1.4.2",
+    "nodemon": "^2.0.12",
+    "puppeteer": "^10.2.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
+    "query-string": "^7.0.1",
+    "sleep-promise": "^9.1.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "position/*"
+    ]
+  },
+  "type": "module"
+}
